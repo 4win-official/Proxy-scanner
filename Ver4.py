@@ -528,7 +528,7 @@ if __name__ == "__main__":
         # Changed style to "dim white" for smaller text
         menu_table.add_row(Text(f"Max Workers: {config['max_workers']}", style="dim white", justify="center"))
         menu_table.add_row(Text(f"Hard Check Sites: {', '.join(config['hard_check_sites'])}", style="dim white", justify="center"))
-        menu_table.add_row(Text("version 3", style="dim white", justify="center")) 
+        menu_table.add_row(Text("version 4", style="dim white", justify="center")) 
         
         console.print(menu_table, justify="center")
         
